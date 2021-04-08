@@ -14,7 +14,9 @@
 
     opacity: 0;
     transform: translateY(-10px);
-    transition: all $transition-time ease;
+    transition-property: visibility, transform, opacity;
+    transition-duration: $transition-time;
+    transition-timing-function: ease;
 
     background-color: $wrapper-color;
     color: $white-color;
@@ -62,7 +64,7 @@
     line-height: 50px;
     font-size: 1.2rem;
     width: inherit;
-    padding-left: 20vw;
+    padding-right: 40vw;
 
     &:hover {
       background-color: $menu-hover-color;
