@@ -41,6 +41,8 @@
   &__buttons {
     display: flex;
     justify-content: space-between;
+
+    padding-top: 90px;
   }
 }
 
@@ -61,7 +63,7 @@
 
     &__adress {
       position: absolute;
-      top: 580%;
+      top: 650%;
       right: 0;
 
       font-size: 13px;
@@ -79,7 +81,7 @@
       position: absolute;
       width: 100%;
 
-      top: 480px;
+      top: 560px;
     }
   }
 }

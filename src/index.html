@@ -52,11 +52,33 @@
                 </li>
               </ul>
             </nav>
-            <button class="button header__button">
-              Buy Now
+
+            <a href="https://www.kat-vr.com/pages/distributors-list">
+              <button class="button header__button">
+                Buy Now
+              </button>
+            </a>
             </button>
-            <div class="header__menu">
-              <img src="./images/burger.svg" alt="menu">
+            <div class="header__menu menu">
+              <input
+                type="checkbox"
+                id="check-menu"
+                class="menu__check"
+              >
+              <label for="check-menu" class="menu__toggle"></label>
+              <div class="menu__line menu__line-first"></div>
+              <div class="menu__line menu__line-second"></div>
+              <div class="menu__line menu__line-third"></div>
+              <div class="menu__line menu__line-fourth"></div>
+
+              <nav class="menu__list">
+                <a href="#about" class="link menu__link">About</a>
+                <a href="#tech" class="link menu__link">Tech</a>
+                <a href="#benefit" class="link menu__link">Benefits</a>
+                <a href="#contacts" class="link menu__link">Contact</a>
+                <a href="#contacts" class="link menu__link">FAQ</a>
+                <a href="#contacts" class="link menu__link">Help</a>
+              </nav>
             </div>
           </div>
         </div>
@@ -345,9 +367,13 @@
               </p>
             </div>
           </div>
-          <button class="button reason__button">
-            Buy Now
-          </button>
+
+          <a href="https://www.kat-vr.com/pages/distributors-list">
+            <button class="button reason__button">
+              Buy Now
+            </button>
+          </a>
+
         </div>
       </section>
 
@@ -418,14 +444,14 @@
                 type="textarea"
                 name="message"
               >
-            </form>
 
-            <div class="contact__buttons">
-              <button class="button form__button">
-                Contact us
-              </button>
-              <a href="#header" class="link__arrow"></a>
-            </div>
+              <div class="contact__buttons">
+                <button class="button form__button">
+                  Contact us
+                </button>
+                <a href="#header" class="link__arrow"></a>
+              </div>
+            </form>
 
           </div>
         </div>
